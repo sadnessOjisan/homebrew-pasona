@@ -6,13 +6,11 @@ class Pasona < Formula
     homepage "https://github.com/sadnessOjisan/pasona"
     url "https://github.com/sadnessOjisan/pasona/releases/latest/download/pasona-x86_64-apple-darwin.zip"
     version "v1.0.0"
-    sha256 "fc201aba50449553c76cf1dc7aaf577d0901116eb4ca3e778c75e0ccd399aa0a"
+    sha256 ""
     license "MIT"
     # depends_on "cmake" => :build
     def install
       # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-      unzip pasona-x86_64-apple-darwin.zip
-      ls
       bin.install "pasona" # ←実行ファイルを実行Pathに配置するよの意味
     end
   
