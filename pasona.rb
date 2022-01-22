@@ -12,6 +12,7 @@ class Pasona < Formula
     def install
       # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
       unzip pasona-x86_64-apple-darwin.zip
+      ls
       bin.install "pasona" # ←実行ファイルを実行Pathに配置するよの意味
     end
   
