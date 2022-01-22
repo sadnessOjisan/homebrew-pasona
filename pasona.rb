@@ -1,4 +1,4 @@
-:# Documentation: https://docs.brew.sh/Formula-Cookbook
+# Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Pasona < Formula
@@ -8,9 +8,7 @@ class Pasona < Formula
     version "v1.0.0"
     sha256 "fc201aba50449553c76cf1dc7aaf577d0901116eb4ca3e778c75e0ccd399aa0a"
     license "MIT"
-  
     # depends_on "cmake" => :build
-  
     def install
       # ENV.deparallelize  # if your formula fails when building in parallel
       # Remove unrecognized options if warned by configure
