@@ -1,2 +1,7 @@
 # homebrew-pasona
-brew install
+
+```
+brew tap sadnessOjisan/pasona
+
+brew install sadnessOjisan/pasona/pasona
+```
