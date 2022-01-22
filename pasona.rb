@@ -13,7 +13,6 @@ class Pasona < Formula
       # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
       bin.install "pasona" # ←実行ファイルを実行Pathに配置するよの意味
     end
-  
     test do
       # `test do` will create, run in and delete a temporary directory.
       #
