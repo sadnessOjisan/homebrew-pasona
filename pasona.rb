@@ -5,7 +5,7 @@ class Pasona < Formula
     desc "パーソナルカラー診断をできるCLI"
     homepage "https://github.com/sadnessOjisan/pasona"
     url "https://github.com/sadnessOjisan/pasona/releases/latest/download/pasona-x86_64-apple-darwin.zip"
-    version "v1.0.0"
+    version "v1.0.1"
     sha256 ""
     license "MIT"
     # depends_on "cmake" => :build
@@ -13,7 +13,7 @@ class Pasona < Formula
       # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
       bin.install "pasona" # ←実行ファイルを実行Pathに配置するよの意味
     end
-    test do
+    tet do
       # `test do` will create, run in and delete a temporary directory.
       #
       # This test will fail and we won't accept that! For Homebrew/homebrew-core
